@@ -1,12 +1,12 @@
-# Diario App
+# Journal App React + Redux + Firebase (Todo App)
+## Descripicion del proyecto
 
-Permite registrar activadades u objetivos personales.
+Esta aplicación esta hecha en React con autenticación en Firebase y manejo de estado con Redux. \
+Permite al usuario describir sus actividades diarias acompañadas si es necesario de una imagen
 
-## Inicio de proyecto.
+## Inicio de proyecto
 
-In the project directory, you can run:
 ### `npm start`
-
 
 
 ## Variables de entorno: 
@@ -17,4 +17,6 @@ In the project directory, you can run:
 - REACT_APP_STORAGE_BUCKET
 - REACT_APP_MESSAGING_SENDER_ID
 - REACT_APP_APP_ID
+## Vista previa de la aplicación
 
+![Vista previa ](/src/assets/img/preview-journalApp.PNG)
