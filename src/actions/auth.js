@@ -3,6 +3,7 @@ import {firebase, googleAuthProvider} from '../firebase/firebaseConfig' ;
 import { types } from "../types/types"
 import { noteLogout } from './notes';
 import { FinishLoading, StartLoading } from './ui';
+
 export const startLoginEmailPassword = (email,password) => {
     return (dispatch) => {
         dispatch(StartLoading());
@@ -38,7 +39,7 @@ export const startGoogleLogin = () => {
     return (dispatch) => {
         firebase.auth().signInWithPopup( googleAuthProvider)
             .then (({user}) => {
-              
+                
                 dispatch(login(user.uid,user.displayName));
             })
     }

@@ -8,18 +8,15 @@ import { types } from "../types/types";
 
 export const startNewNote = () => {
     return async (dispatch, getSate) => {
-        const { uid } = getSate().auth;
+        const { uid } = getSate().auth;       
         const newNote = {
             title: '',
             body: '',
             date: new Date().getTime()
         }
-
         const doc = await db.collection(`${uid}/Journal/notes`).add(newNote);
-
         dispatch(activeNote(doc.id, newNote));
         dispatch(addNewNote(doc.id,newNote));
-
     }
 }
 
@@ -82,6 +79,8 @@ export const refreshNote = (id, note) => ({
 export const startUploading = (file) => {
     return async (dispatch, getSate) => {
         const { active: activeNote } = getSate().notes;
+        console.log(getSate().notes);
+        console.log(file);
         Swal.fire({
             title: 'Uploading...',
             text: 'Please wait',
@@ -115,7 +114,7 @@ export const deleteNote = (id) => ({
         id
     }
 
-})
+});
 
 export const noteLogout = () => ({
     type: types.notesLogoutClean

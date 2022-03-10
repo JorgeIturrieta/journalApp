@@ -16,9 +16,5 @@ export const types = {
     notesUpdated: '[Notes] Updated note',
     notesFileUrl: '[Notes] Updated image url',
     notesDelete: '[Notes] Delete note',
-    notesLogoutClean: '[Notes] Loguot Cleaning',
-
-
-
-    
+    notesLogoutClean: '[Notes] Loguot Cleaning',    
 }
