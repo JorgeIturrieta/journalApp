@@ -1,20 +1,20 @@
 {
   "files": {
-    "main.css": "/JorgeIturrieta/journalApp/static/css/main.bd841d0a.chunk.css",
-    "main.js": "/JorgeIturrieta/journalApp/static/js/main.3e13b702.chunk.js",
-    "main.js.map": "/JorgeIturrieta/journalApp/static/js/main.3e13b702.chunk.js.map",
-    "runtime-main.js": "/JorgeIturrieta/journalApp/static/js/runtime-main.b0726d2b.js",
-    "runtime-main.js.map": "/JorgeIturrieta/journalApp/static/js/runtime-main.b0726d2b.js.map",
-    "static/js/2.4980a502.chunk.js": "/JorgeIturrieta/journalApp/static/js/2.4980a502.chunk.js",
-    "static/js/2.4980a502.chunk.js.map": "/JorgeIturrieta/journalApp/static/js/2.4980a502.chunk.js.map",
-    "index.html": "/JorgeIturrieta/journalApp/index.html",
-    "static/css/main.bd841d0a.chunk.css.map": "/JorgeIturrieta/journalApp/static/css/main.bd841d0a.chunk.css.map",
-    "static/js/2.4980a502.chunk.js.LICENSE.txt": "/JorgeIturrieta/journalApp/static/js/2.4980a502.chunk.js.LICENSE.txt"
+    "main.css": "/journalApp/static/css/main.bd841d0a.chunk.css",
+    "main.js": "/journalApp/static/js/main.b53e19b6.chunk.js",
+    "main.js.map": "/journalApp/static/js/main.b53e19b6.chunk.js.map",
+    "runtime-main.js": "/journalApp/static/js/runtime-main.aa2a8b2a.js",
+    "runtime-main.js.map": "/journalApp/static/js/runtime-main.aa2a8b2a.js.map",
+    "static/js/2.9c2b3156.chunk.js": "/journalApp/static/js/2.9c2b3156.chunk.js",
+    "static/js/2.9c2b3156.chunk.js.map": "/journalApp/static/js/2.9c2b3156.chunk.js.map",
+    "index.html": "/journalApp/index.html",
+    "static/css/main.bd841d0a.chunk.css.map": "/journalApp/static/css/main.bd841d0a.chunk.css.map",
+    "static/js/2.9c2b3156.chunk.js.LICENSE.txt": "/journalApp/static/js/2.9c2b3156.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
-    "static/js/runtime-main.b0726d2b.js",
-    "static/js/2.4980a502.chunk.js",
+    "static/js/runtime-main.aa2a8b2a.js",
+    "static/js/2.9c2b3156.chunk.js",
     "static/css/main.bd841d0a.chunk.css",
-    "static/js/main.3e13b702.chunk.js"
+    "static/js/main.b53e19b6.chunk.js"
   ]
 }
